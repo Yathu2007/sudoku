@@ -2,10 +2,6 @@
     <img src="imgs/Banner.svg">
 </div>
 
----
-
-<br>
-
 <div align="center">
 <img alt="GitHub" src="https://img.shields.io/github/license/Yathu2007/sudoku?style=plastic">
 <img alt="GitHub issues" src="https://img.shields.io/github/issues/Yathu2007/sudoku?style=plastic">
@@ -14,8 +10,6 @@
 <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Yathu2007/sudoku?style=plastic">
 <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Yathu2007/sudoku?style=plastic">
 </div>
-
-<br>
 
 ---
 
