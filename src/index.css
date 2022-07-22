@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap");
+
+body {
+    background-color: #282c34;
+}
+
+h1,
+label {
+    font-family: "Roboto";
+    font-weight: bolder;
+    color: whitesmoke;
+    margin: 8px;
+}
+
+.game {
+    min-height: 98vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.cellInput {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    padding: 0px;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 3px;
+}
+
+.sudokuBoard,
+.statusLabel {
+    margin: 20px;
+}
+
+.rowBorder {
+    border-bottom: 3px solid #adadad;
+}
+
+.colBorder {
+    border-right: 3px solid #adadad;
+}
+
+table {
+    border-collapse: collapse;
+    border: 3px solid #adadad;
+    background-color: antiquewhite;
+}
+
+td {
+    padding: 0.5px;
+}
+
+input:focus {
+    outline: 0.2px solid rgb(160, 160, 160);
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+}
