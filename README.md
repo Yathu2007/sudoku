@@ -15,11 +15,11 @@
 
 ## 📘 Overview
 
-This mini-project is to demonstrate how the backtracking algorithm can be used to solve a problem like Sudoku.
+This mini-project is to demonstrate how the backtracking algorithm can be used to solve a problem (with multiple contraints) like Sudoku. In the case of Sudoku numbers cannot repeat in a row, column or mini-grid
 
 The process of trying possible candidates to the solution and backtracking as soon as it determines that the candidate cannot possibly be completed to a valid solution, is visible via the animation of solving.
 
-Backtracking is much faster than brute-force enumeration of all complete candidates.
+[Learn more in Wikipedia](https://en.wikipedia.org/wiki/Backtracking)
 
 ## 🚀 Preview
 
