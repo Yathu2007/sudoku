@@ -1,5 +1,3 @@
-// import React from "react";
-
 var grids = [];
 
 export default function Backtracking(grid) {
