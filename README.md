@@ -19,6 +19,38 @@ This mini-project is to demonstrate how the backtracking algorithm can be used t
 
 The process of trying possible candidates to the solution and backtracking as soon as it determines that the candidate cannot possibly be completed to a valid solution, is visible via the animation of solving.
 
+### Basic pseudocode template for sudoku backtracking
+
+```c++
+get_candidates(state) {
+    return candidates // possible candidates at current state
+}
+
+solve(state) {
+    if (base_case) {
+        return true; // base case to return True
+    } else if (another_case) {
+        return solve(different_state); // several ifs for other types of cases
+    } else {
+        // try every possibility and backtrack when incorrect
+        for candidate in get_candidates(state) {
+            state.add(candidate); // modify the grid
+
+            // recurse on the modified grid
+            if (solve(state) {
+                return true; // this state was solved with the chosen candidate
+            } else {
+                state.remove(candidate); // undo the change
+            }
+        }
+
+        // tried all possible candidates,
+        // but none solves the problem, so
+        return false;
+    }
+}
+```
+
 [Learn more in Wikipedia](https://en.wikipedia.org/wiki/Backtracking)
 
 ## 🚀 Preview
